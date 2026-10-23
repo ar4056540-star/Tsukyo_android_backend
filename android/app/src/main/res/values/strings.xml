@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">VYBE</string>
+    <string name="feed">Feed</string>
+    <string name="reels">Reels</string>
+    <string name="create">Create</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="logout">Log Out</string>
+    <string name="caption_placeholder">Write a caption... #vybe</string>
+    <string name="post">Post</string>
+    <string name="upload_reel">Upload Reel</string>
+    <string name="direct_messages">Direct Messages</string>
+    <string name="notifications">Notifications</string>
+    <string name="comments">Comments</string>
+</resources>

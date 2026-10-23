@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: tsukyo-api
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+      - key: DATA_DIR
+        value: /var/data
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: TSUKYO_MAX_UPLOAD_MB
+        value: "512"
+    disk:
+      name: tsukyo-data
+      mountPath: /var/data
+      sizeGB: 1

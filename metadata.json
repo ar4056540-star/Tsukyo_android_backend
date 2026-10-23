@@ -1,0 +1,6 @@
+{
+  "name": "VYBE",
+  "description": "Mobile-first social media application with reels, posts, stories, direct messaging, and user discovery.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

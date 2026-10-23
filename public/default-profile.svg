@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="pfpBg" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1c1f2b" />
+      <stop offset="1" stop-color="#0f1118" />
+    </linearGradient>
+    <linearGradient id="accentRing" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ec4899" />
+      <stop offset="0.5" stop-color="#a855f7" />
+      <stop offset="1" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="avatarFill" x1="50" y1="40" x2="150" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#94a3b8" />
+      <stop offset="1" stop-color="#64748b" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="100" fill="url(#pfpBg)" />
+  <circle cx="100" cy="100" r="98" stroke="url(#accentRing)" stroke-width="3" stroke-opacity="0.7" />
+  <!-- Head -->
+  <circle cx="100" cy="74" r="30" fill="url(#avatarFill)" />
+  <!-- Body -->
+  <path d="M44 162C44 133.281 67.281 110 96 110H104C132.719 110 156 133.281 156 162V170C156 177.732 149.732 184 142 184H58C50.268 184 44 177.732 44 170V162Z" fill="url(#avatarFill)" />
+</svg>

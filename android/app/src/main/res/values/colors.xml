@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vybe_bg">#0B0C0E</color>
+    <color name="vybe_surface">#13151A</color>
+    <color name="vybe_border">#222630</color>
+    <color name="vybe_primary">#FF007A</color>
+    <color name="vybe_secondary">#7928CA</color>
+    <color name="vybe_accent">#00F2FE</color>
+    <color name="vybe_text_primary">#FFFFFF</color>
+    <color name="vybe_text_secondary">#94A3B8</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
